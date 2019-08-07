@@ -1,4 +1,4 @@
-'../
+'../guessing_game_cl
 
 require_relative "../guessing_game_cli"
 
