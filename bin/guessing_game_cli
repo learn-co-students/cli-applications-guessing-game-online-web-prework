@@ -1,4 +1,4 @@
-'../guessing_game_cl
+ruby bin/guessing_game_cli
 
 require_relative "../guessing_game_cli"
 
