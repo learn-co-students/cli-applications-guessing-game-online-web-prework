@@ -1,6 +1,7 @@
 def generate_random_number()
-  #2
-  rand(1..6)
+  #6
+  #rand(1..6)
+  rand(6) + 1
 end #method
 
 def prompt_user()
@@ -23,7 +24,7 @@ end #method
 
 def run_guessing_game()
   target_num = generate_random_number()
-  #puts "Target number: #{target_num}"
+  puts "Target number: #{target_num}"
   #prompt_user()
   user_guess = get_user_guess()
   check_guess(user_guess, target_num)
