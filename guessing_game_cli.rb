@@ -1,15 +1,17 @@
 # Code your solution here!
 def run_guessing_game
-  random_guess = rand(1..6)
-  gets 
+computers_guess = rand(6) + 1 
+user_input = gets.chomp 
+if user_input == "exit"
   puts "Goodbye!"
-   if rand > 6
-    gets
-    puts "Sorry! The computer guessed <6>."
-    elsif
-    rand < 6 
-    puts "You guessed the correct number!"
- end  
- end 
+  elsif user_input.to_i ==computers_guess
+print "You guessed the correct number!"
+else
+print "Sorry! The computer guessed #{computers_guess}."
+  end
+end
+
+
   
 
+    
