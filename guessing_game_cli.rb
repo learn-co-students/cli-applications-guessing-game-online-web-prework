@@ -3,7 +3,7 @@ def run_guessing_game
   input = gets.strip
   if input == "exit"
     puts "Goodbye!"
-  elsif Integer(input) == rand
+  elsif Integer(input) == num
     puts "You guessed the correct number!"
   else
     puts "Sorry! The computer guessed #{num}."
