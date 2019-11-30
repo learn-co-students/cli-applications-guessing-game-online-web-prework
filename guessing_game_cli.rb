@@ -19,7 +19,7 @@ def run_guessing_game
       user_input = gets.chomp.to_s 
      if user_input == "exit" 
         puts "Goodbye!"
-     elsif  user_input != dice 
+     elsif  user_input != dice.to_s
         puts "Sorry! The computer guessed #{dice}."
      elsif user_input == dice.to_s
          puts "You guessed the correct number!"
