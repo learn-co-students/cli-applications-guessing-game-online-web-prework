@@ -21,7 +21,7 @@ def run_guessing_game
         puts "Goodbye!"
      elsif  user_input != dice 
         puts "Sorry! The computer guessed #{dice}."
-     elsif user_input == dice 
+     elsif user_input == dice.to_s
          puts "You guessed the correct number!"
      else
         puts "invalid input"
