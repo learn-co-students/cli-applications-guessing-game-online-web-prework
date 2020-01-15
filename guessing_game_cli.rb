@@ -6,7 +6,7 @@ require 'pry'
 def run_guessing_game # define method EXIT == exit
     data = rand(6)+1 # picks random integer 
     #then increments up on b/c indexes at 0
-    #puts "Take a guess between 1 and 6." # puts statment to console
+    puts "Take a guess between 1 and 6." # puts statment to console
     user_input_number = gets.chomp # sets variable take in user input 
     #in irb. takes off last element 
     if data.to_s == user_input_number.to_s # takes user 
