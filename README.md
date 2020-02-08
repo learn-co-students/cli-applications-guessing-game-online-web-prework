@@ -222,6 +222,7 @@ running the main method of our application.
 - [chomp][chomp]
 
 [rand]: https://www.rubydoc.info/stdlib/core/Kernel:rand
+
 [gets]: https://ruby-doc.org/core-2.3.1/Kernel.html
 [chomp]: https://ruby-doc.org/core-2.3.1/String.html#method-i-chomp
 [concerns]: https://en.wikipedia.org/wiki/Separation_of_concerns
